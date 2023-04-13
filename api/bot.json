@@ -1,0 +1,20 @@
+[
+    {
+    "response_type": "greeting",
+    "user_input": ["hola", "buen día", "buenas"],
+    "bot_response": "Hola humano!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["adios", "nos vemos ", "hasta luego"],
+    "bot_response": "Nos vemos humano!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["un", "gusto", "conocerte"],
+    "bot_response": "El placer es mío!",
+    "required_words": ["gusto", "conocerte"]
+  }
+]
